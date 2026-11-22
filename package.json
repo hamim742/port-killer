@@ -1,0 +1,24 @@
+{
+  "name": "killport-cli",
+  "version": "1.0.0",
+  "description": "Free a stuck port in one command: npx killport-cli 3000",
+  "type": "module",
+  "bin": {
+    "killport": "./bin/cli.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": ["port", "kill", "kill-port", "cli", "npx", "localhost", "EADDRINUSE", "developer-tools"],
+  "author": "Hamim",
+  "license": "MIT"
+}
